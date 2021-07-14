@@ -341,9 +341,34 @@ footer {
         margin-left: 25px;
     }
 
+     /* all players end */
+
+      /* brazil-vs-argentina start */
+
+    .container-arg-vs-bra{
+        width: 100%;
+        height: auto;
+    }
+    .brazil-vs-argentina{
+        margin-top: 165px;  
+    }
+    .bra-vs-arg{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr)
+    }
+    .bra-vs-arg-title{
+        width: 329px;
+        height:auto;
+    }
+    .bra-vs-arg-images img{
+        width: 328px;
+        height:auto;
+    }
+
 
 }
-.brazil-vs-argentina, .argentinas, .highlights, footer{
+ .argentinas, .highlights, footer{
     display: none;
 }
 
