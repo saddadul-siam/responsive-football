@@ -1,0 +1,126 @@
+/* -----------
+google font
+-------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+/*---------------- 
+style main header
+ -----------------*/
+ .main-header{
+     width:100%;
+     height: 677px;
+     background-color:#2D25A0;
+ }
+
+/* ---------------
+ style top-section
+ ------------------*/
+
+ .top-section{
+    display: flex;
+    justify-content: space-around;
+    grid-column-gap: 102px;
+ }
+.topbar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+ .topbar-title{
+    margin-top: 207px;
+ }
+ .topbar-title h1{
+     font-size: 64px;
+     font-weight: 700;
+     color:#FFFFFF;
+     margin-bottom: 27px;
+     margin-top: 0px;
+ }
+ 
+ .watch-live-button{
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #E02C6D;
+    color:#FFFFFF;
+    padding: 10px 24px;
+    border: none;
+    transition: 1s;
+ }
+ .watch-live-button:hover{
+    background-color:#3DBAFD;
+    cursor: pointer;
+   }
+ .topbar-img{
+    margin-top: 153px;
+ }
+ .topbar-img img{
+     width: 556px;
+     height:438px ;
+
+ }
+ /* players style */
+
+ main {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+ .container{
+     width: 1050px;
+     height: auto;
+ }
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+ .player{
+     display: flex;
+     flex-direction: column;
+     width: 300px;
+     height: 480px;
+     box-shadow: 2px 2px 2px 2px #dbd3d3;
+     padding: 15px;
+ }
+ .player-images img{
+     width: 300px;
+     height: 256px;
+ }
+ .player-detail h1{
+     font-size: 28px;
+     font-weight: 700;
+     color: #18191F;
+ }
+ .player-detail p{
+     font-size: 16px;
+     font-weight: 400;
+     color: #6C6C6C;
+
+ }
+ footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 165px;
+
+}
+.footer-logo img{
+    width: 300px;
+}
+.footer-info i{
+    color: #969BAB;
+    padding: 10px 10px;
+    background-color: #dee0e6;
+    border-radius: 100%;
+}
+.footer-copyright h3{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+}
