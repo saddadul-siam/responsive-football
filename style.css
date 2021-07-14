@@ -296,10 +296,10 @@ footer {
  /* -------------
  mobile devices
   --------------*/
-  @media only screen and (max-width:688px) {
+  @media only screen and (max-width:687px) {
       .main-header{
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 100%;
         
     }
       .top-section{
@@ -325,9 +325,13 @@ footer {
         margin-bottom: 61.83px;
       }
     
-    /* topsection end */
+    /*--------------- 
+    topsection end
+     ---------------*/
 
-    /* all players start */
+    /* ----------------
+    all players start
+     ------------------*/
 
     .container{
         width: 100%;
@@ -342,9 +346,13 @@ footer {
         margin-left: 25px;
     }
 
-     /* all players end */
+     /* ---------------
+     all players end
+      -----------------*/
 
-      /* brazil-vs-argentina start */
+      /*------------------------ 
+      brazil-vs-argentina start
+       --------------------------*/
 
     .container-arg-vs-bra{
         width: 100%;
@@ -421,10 +429,7 @@ footer {
      highlights end
     --------------- */
 
-    footer{
-        /* margin-top: 60px;  */
-    }
-
+ 
 
 }
 
