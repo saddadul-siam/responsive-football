@@ -300,7 +300,8 @@ footer {
       .main-header{
         width: auto;
         height: auto;
-        background-color: gray;}
+        
+    }
       .top-section{
           display: flex;
           }
@@ -350,7 +351,7 @@ footer {
         height: auto;
     }
     .brazil-vs-argentina{
-        margin-top: 165px;  
+        margin-top: 60px;  
     }
     .bra-vs-arg{
         display: flex;
@@ -366,9 +367,34 @@ footer {
         height:auto;
     }
 
+    /*--------------
+     argentinas
+     -------------- */
+
+    .container-argentina{
+        width: 100%;
+        height: auto;
+    }
+    .argentinas{
+        margin-top: 60px; 
+    }
+    .argentina{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr)
+    }
+    .argentina-images img{
+        width: 328px;
+        height:auto;
+    }
+    .argentina-title{
+        width: 329px;
+        height:auto;
+    }
+
 
 }
- .argentinas, .highlights, footer{
+.highlights, footer{
     display: none;
 }
 
