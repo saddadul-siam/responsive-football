@@ -3,6 +3,9 @@ google font
 -------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+/* ---------------
+    common style 
+----------------*/
 body{
     margin: 0%;
     padding: 0%;
@@ -17,9 +20,9 @@ style main header
      background-color:#2D25A0;
  }
 
-/* ---------------
- style top-section
- ------------------*/
+/* ---------------------
+ style top-section start
+ -----------------------*/
 
  .top-section{
     display: flex;
@@ -49,11 +52,12 @@ style main header
     color:#FFFFFF;
     padding: 10px 24px;
     border: none;
-    transition: 1s;
+    transition: 2s;
  }
  .watch-live-button:hover{
     background-color:#3DBAFD;
     cursor: pointer;
+    border-radius: 50px;
    }
  .topbar-img{
     margin-top: 153px;
@@ -63,7 +67,14 @@ style main header
      height:438px ;
 
  }
- /* players style */
+/* ---------------------
+ style top-section end
+ -----------------------*/
+
+
+ /*-------------------
+  players style start
+  ------------------*/
 
  main {
     display: flex;
@@ -106,10 +117,13 @@ style main header
      color: #6C6C6C;
 
  }
+  /*-------------------
+  players style end
+  ------------------*/
  
 
  /*------------------ 
- Bonus style 1 start 
+ Bonus section 1 start 
   -------------------*/
 
 .container-arg-vs-bra{
@@ -149,11 +163,11 @@ style main header
     Height:auto;
 }
 /*------------------ 
- Bonus style 1 end 
+ Bonus section 1 end 
 -------------------*/
 
 /*------------------ 
- Bonus style 2 start 
+ Bonus section 2 start 
 -------------------*/
 
 .container-argentina{
@@ -179,13 +193,77 @@ style main header
     height: auto;
     padding: 0px 10px;
     box-shadow: 2px 2px 2px 2px #e3dfdf;
-    /* background-color: rgb(209, 202, 202); */
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    
+}
+.argentina-title h1{
+    font-size: 32px;
+    font-weight: 700;
+    color:#0A0826;
+ 
 }
 
 /*------------------ 
- Bonus style 2 end 
+ Bonus section 2 end 
 -------------------*/
 
+/* --------------------
+optional section start 
+------------------------*/
+.container-all-highlights{
+    width: 1050px;
+    height: auto;
+
+}
+.highlights{
+    margin-top: 165px;
+
+   
+}
+.highlight{
+    display: flex;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 68px;
+  
+}
+.highlight-title{
+    width: 469px;
+    height: auto;
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+.highlight-title h1{
+    font-size: 32px;
+    font-weight: 700;
+    color:#0A0826;
+    margin-top: 0;
+}
+.highlight-title a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    background-color:#E02C6D;
+    color: #FFFFFF;
+    padding: 10px 24px;
+}
+
+.highlight-images img{
+    width:567px;
+    Height:auto;
+}
+/* --------------------
+optional section end 
+------------------------*/
+
+
+/*----------------
+ style footer start
+ -------------- --*/
 footer {
     display: flex;
     flex-direction: column;
@@ -207,3 +285,6 @@ footer {
     color: #000000;
     font-weight: 400;
 }
+/*----------------
+ style footer end
+ -------------- --*/
