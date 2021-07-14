@@ -69,8 +69,11 @@ style main header
     display: flex;
     justify-content: center;
     padding-top: 70px;
+    flex-direction: column;
+    align-items: center;
 }
- .container{
+
+.container{
      width: 1050px;
      height: auto;
  }
@@ -103,7 +106,87 @@ style main header
      color: #6C6C6C;
 
  }
- footer {
+ 
+
+ /*------------------ 
+ Bonus style 1 start 
+  -------------------*/
+
+.container-arg-vs-bra{
+    width: 1050px;
+    height: auto;
+
+}
+.brazil-vs-argentina{
+    margin-top: 165px;
+
+   
+}
+.bra-vs-arg {
+    display: flex;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 68px;
+  
+}
+.bra-vs-arg-title{
+    width: 469px;
+    height: 330px;
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+
+}
+.bra-vs-arg-title h1{
+    font-size: 32px;
+    font-weight: 700;
+    color:#0A0826;
+    margin-top: 0;
+}
+.bra-vs-arg-images img{
+    width:567px;
+    Height:auto;
+}
+/*------------------ 
+ Bonus style 1 end 
+-------------------*/
+
+/*------------------ 
+ Bonus style 2 start 
+-------------------*/
+
+.container-argentina{
+    width: 1050px;
+    height: auto;
+}
+.argentinas{
+    margin-top: 100px;
+}
+.argentina{
+    display: flex;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 68px;
+    flex-direction: column;
+}
+.argentina-images img{
+    width: 1050px;
+    Height:auto;
+}
+.argentina-title{
+    width: 1050px;
+    height: auto;
+    padding: 0px 10px;
+    box-shadow: 2px 2px 2px 2px #e3dfdf;
+    /* background-color: rgb(209, 202, 202); */
+}
+
+/*------------------ 
+ Bonus style 2 end 
+-------------------*/
+
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
