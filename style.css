@@ -27,11 +27,12 @@ style main header
  .top-section{
     display: flex;
     justify-content: space-around;
-    grid-column-gap: 102px;
+    
  }
 .topbar{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 102px;
     
 }
  .topbar-title{
@@ -122,9 +123,9 @@ style main header
   ------------------*/
  
 
- /*------------------ 
- Bonus section 1 start 
-  -------------------*/
+ /*------------------------ 
+ Bonus section 1 style start 
+  ---------------------------*/
 
 .container-arg-vs-bra{
     width: 1050px;
@@ -162,13 +163,13 @@ style main header
     width:567px;
     Height:auto;
 }
-/*------------------ 
- Bonus section 1 end 
--------------------*/
+/*------------------------- 
+ Bonus section 1 style end 
+----------------------------*/
 
-/*------------------ 
- Bonus section 2 start 
--------------------*/
+/*----------------------------
+ Bonus section 2 style start 
+-----------------------------*/
 
 .container-argentina{
     width: 1050px;
@@ -206,11 +207,11 @@ style main header
 }
 
 /*------------------ 
- Bonus section 2 end 
+ Bonus section 2 style end 
 -------------------*/
 
 /* --------------------
-optional section start 
+optional section style start 
 ------------------------*/
 .container-all-highlights{
     width: 1050px;
@@ -257,7 +258,7 @@ optional section start
     Height:auto;
 }
 /* --------------------
-optional section end 
+optional section style end 
 ------------------------*/
 
 
@@ -326,11 +327,11 @@ footer {
       }
     
     /*--------------- 
-    topsection end
+    topsection style end
      ---------------*/
 
     /* ----------------
-    all players start
+    all players style start
      ------------------*/
 
     .container{
@@ -347,12 +348,12 @@ footer {
     }
 
      /* ---------------
-     all players end
+     all players style end
       -----------------*/
 
-      /*------------------------ 
-      brazil-vs-argentina start
-       --------------------------*/
+      /*---------------------------- 
+      brazil-vs-argentina style start
+       -----------------------------*/
 
     .container-arg-vs-bra{
         width: 100%;
@@ -374,10 +375,14 @@ footer {
         width: 328px;
         height:auto;
     }
+      /*---------------------------- 
+      brazil-vs-argentina style end
+       -----------------------------*/
 
-    /*--------------
-     argentinas
-     -------------- */
+
+    /*----------------------
+     argentinas style start
+     -------------- -------*/
 
     .container-argentina{
         width: 100%;
@@ -399,9 +404,14 @@ footer {
         width: 329px;
         height:auto;
     }
-    /*---------------
-     highlights start
-    --------------- */
+     /*---------------------
+     argentinas style end
+     --------------------- */
+
+
+    /*-----------------------
+     highlights style start
+    --------------- ---------*/
 
     .container-all-highlights{
         width: 100%;
@@ -426,11 +436,9 @@ footer {
     }
 
       /*---------------
-     highlights end
+     highlights style end
     --------------- */
 
- 
-
-}
-
-
+     /* -------------
+ mobile devices end
+  --------------*/
